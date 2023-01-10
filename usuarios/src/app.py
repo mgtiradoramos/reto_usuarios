@@ -7,7 +7,6 @@ HOST = '0.0.0.0'
 app = Flask(__name__)
 uri = "mongodb+srv://admin:mesillas1@reto.so2nkgk.mongodb.net/?retryWrites=true&w=majority"
 
-
 @app.route('/altausuario', methods=['POST'])
 def create_user():
 
